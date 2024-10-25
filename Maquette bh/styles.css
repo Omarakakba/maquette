@@ -1,0 +1,201 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF8C00; 
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #DCC3BE; 
+}
+
+
+.estimation-section {
+    background-image: url('photo-bandeau.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.estimation-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.estimation-section form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.estimation-section input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.estimation-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FF8C00; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.estimation-section button:hover {
+    background-color: #DCC3BE; 
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+.veranda-description {
+    width: 70%; 
+}
+
+.veranda-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.veranda-options .option {
+    width: 32%;
+}
+
+.veranda-options .option img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.veranda-options .option p {
+    margin-top: 10px;
+    color: #333;
+}
+
+
+.veranda-details {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.veranda-details h2 {
+    color: #89A5A5; 
+    font-weight: bold;
+}
+
+.veranda-details p {
+    color: #333;
+    margin: 10px 0;
+}
+
+.veranda-details a {
+    color: #89A5A5; 
+    text-decoration: underline;
+}
+
+.veranda-details .extension-options h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.veranda-details ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.veranda-details ul li {
+    margin-bottom: 5px;
+}
+
+
+.right-section {
+    width: 25%; 
+}
+
+.right-section h3 {
+    margin-top: 20px;
+}
+
+.right-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.right-section ul li {
+    padding: 5px 0;
+}
+
+.devis-button {
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: #FF8C00; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.devis-button:hover {
+    background-color: #DCC3BE;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.certifications img {
+    max-width: 100px;
+}
