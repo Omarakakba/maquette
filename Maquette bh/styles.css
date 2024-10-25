@@ -1,0 +1,131 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF8C00; /* Couleur orange pour le menu */
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Blanc pour contraster avec la couleur orange */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #DCC3BE; /* Couleur secondaire pour le hover */
+}
+
+/* Section d'estimation */
+.estimation-section {
+    background-image: url('images/photo-bandeau.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.estimation-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.estimation-section form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.estimation-section input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.estimation-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FF8C00; /* Couleur orange pour le bouton */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.estimation-section button:hover {
+    background-color: #DCC3BE; /* Couleur secondaire pour le hover */
+}
+
+/* Section Véranda Description */
+.veranda-description {
+    padding: 40px;
+    text-align: center;
+}
+
+.veranda-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.veranda-options .option {
+    width: 30%;
+}
+
+.veranda-options .option img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.veranda-options .option p {
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #FF8C00; /* Couleur orange pour le pied de page */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.certifications img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: white; /* Texte en blanc pour contraster */
+}
